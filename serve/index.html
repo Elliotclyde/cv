@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+
+<body>
+  <main>
+    <div class="left-panel">
+      <img alt="Picture of Hugh near lake Waikaremoana" src="/Hugh-pic.jpg" class="picture-wrapper" />
+      <h2>Contact</h2>
+      <div class="contact-wrapper">
+        <a href="mailto:hughelliotclyde@gmail.com">
+          <div class="contact"><img alt="github logo" class="profile-link" src="/mail.svg" />hughelliotclyde@gmail.com
+          </div>
+        </a>
+        <a href="tel:0278159586">
+          <div class="contact"><img alt="github logo" class="profile-link" src="/phone.svg" />0278159586</div>
+        </a>
+        <a href="http://www.elliotclyde.nz">
+          <div class="contact"><img alt="github logo" class="profile-link" src="/link.svg" />http://www.elliotclyde.nz
+          </div>
+        </a>
+        <a href="https://github.com/elliotclyde">
+          <div class="contact"><img alt="github logo" class="profile-link"
+              src="/github.svg" />https://github.com/elliotclyde</div>
+        </a>
+        <a href="https://css-tricks.com/author/hughhaworth">
+          <div class="contact"><img alt="csstricks logo" class="profile-link" src="/csstricks.svg" />
+            <div>https://css-tricks.com/author/hughhaworth</div>
+          </div>
+        </a>
+        <a href="https://codepen.io/Elliotclyde">
+          <div class="contact"><img alt="codepen logo" class="profile-link"
+              src="/codepen.svg" />https://codepen.io/Elliotclyde</div>
+        </a>
+        <a href="https://twitter.com/elliotclydenz">
+          <div class="contact"> <img alt="twitter logo" class="profile-link" src="/twitter.svg" /> @elliotclydenz</div>
+        </a>
+      </div>
+      <h2>Skills</h2>
+      <div class="skills-wrapper">
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>JavaScript</p>
+        <p>React JS</p>
+        <p>PHP</p>
+        <p>Laravel</p>
+        <p>SVG</p>
+        <p>UX/UI design</p>
+        <p>Writing</p>
+      </div>
+      <h2>Location</h2>
+      <div class="location-wrapper">
+        <p>I'm based in Te Awakairangi (Lower Hutt), Aotearoa</p>
+      </div>
+    </div>
+    <div class="right-panel">
+      <h1 class="greeting">Hugh Haworth</h1>
+      <p>I work in the public sector. I also love building accessible, beautiful web applications.
+        I would love the opportunity to help you create great software.
+      </p>
+      <section class="projects">
+        <h2 class="projects-title">Experience</h2>
+        <h3>Developer - Plantr<span class="ex-sub">September 2020 to current</span></h3>
+        <p>I built a Laravel application with authentication and CRUD functionality for
+          managing your vegetables. I constructed the entire application using web best
+          practices, illustrated by its performance, accessibility and usability. The app uses
+          modern techniques such as responsive design, SVGs and Alpine.JS to make for a
+          rich user experience. Plantr is currently <a href="https://plantr-nz.herokuapp.com/">hosted on Heroku</a> and
+          was featured in
+          Alpine.JS weekly newsletter.
+        </p>
+        <h3>Guest Writer - CSS Tricks <span class="ex-sub">August 2020 to current</span></h3>
+        <p>I've written articles about JavaScript for <a href="https://css-tricks.com/author/hughhaworth/">CSS
+            tricks</a> - a credible web development resource that gets used by thousands of developers around the world.
+          This work required me to explain web development techniques in a clear manner and ensure that I provide robust
+          solutions and exemplary code samples. These skills would assist in writing documentation, marketing copy, or
+          answering FAQs about software.
+        </p>
+        <h3>Customer Service Officer - MSD <span class="ex-sub">October 2018 to current</span></h3>
+        <p>I currently work in the International Services office of Ministry of Social Development. This role requires
+          attention to detail, a command of Microsoft Excel and strong written and verbal communication skills. I also
+          manage a project building HTML templates for our outgoing correspondence. These letters are used by multiple
+          teams and sent to thousands of clients.
+        </p>
+      </section>
+      <section class="education">
+        <h2 class="projects-title">Education</h2>
+        <h3>Bachelor of Music - Victoria University <span class="ex-sub">2012 to 2015</span></h3>
+        <p>Included electives in Computer Science and English</p>
+        <h3>NCEA Levels 1 - 3 <span class="ex-sub">2009 to 2011</span></h3>
+        <p>Merit endorsements in all three NCEA levels
+          <br />Scholarship English and Media Studies
+        </p>
+        <h3>Udemy Courses<span class="ex-sub">2018 to 2020</span></h3>
+        <p>Udemy courses completed on a range of topics including HTML and CSS, Javascript,
+          React, PHP, Laravel, Java, web design, Git, PostgreSQL, and software architecture.</p>
+      </section>
+      <section class="vol">
+        <h2 class="projects-title">Volunteering & Hobbies</h2>
+        <p> I volunteered to teach Syrian immigrants English and to help
+          support their settlement into New Zealand society throughout 2017.
+        </p>
+        <p>I enjoy tramping, skiing, swimming, and playing/listening to music.</p>
+        <br />
+        <br />
+        <br />
+      </section>
+    </div>
+
+
+
+
+  </main>
+  <p class="converted-to-pdf">
+    This document was designed by Hugh Haworth using web technologies and converted to PDF using node.js.
+  </p>
+  <script>
+
+    [].forEach.call(document.querySelectorAll(".copy-button"), function (div) {
+      div.addEventListener("click", onCopyClick);
+    });
+  </script>
+  <object class="tree" type="image/svg+xml" data="/treesvg.svg">
+    Tree fern
+  </object>
+  <object class="tree2" type="image/svg+xml" data="/treesvg.svg">
+    Tree fern
+  </object>
+  <script>
+    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+      ':35729/livereload.js?snipver=1"></' + 'script>')
+  </script>
+</body>
+
+</html>

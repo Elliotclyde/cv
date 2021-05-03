@@ -1,0 +1,19 @@
+{
+  "name": "jspdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serve/index.html",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "html-pdf-node": "^1.0.7",
+    "livereload": "^0.9.1",
+    "servor": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "start": "servor serve --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
